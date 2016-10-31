@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>iOS Push Notification</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="icon" type="image/png" href="http://fc00.deviantart.net/fs70/f/2012/072/1/3/new_apple_logo_by_bodik87-d4sn1qd.png"/>
+
+</head>
+
+<body>
+    
+<center><img src="http://fc00.deviantart.net/fs70/f/2012/072/1/3/new_apple_logo_by_bodik87-d4sn1qd.png" alt="IOS PUSHNOTIFICATION"></center></br></a>
+
+<center>
+    
+    <form action="simplepush.php" method="post" enctype="multipart/form-data">
+        Select PEM to upload:
+        
+        </br>
+        
+        </br>
+
+        <input type="file" name="fileToUpload" id="fileToUpload">
+            
+        </br>
+            
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+    
+<form action="pushios.php" method="post">
+    
+Sandbox :
+
+<select name="taskOption">
+    
+    <option value="0" selected>SandBox</option>
+    
+    <option value="1">Distribution</option>
+    
+</select>
+
+</br>
+
+</br>
+
+Device Id : <INPUT size=70% TYPE = "Text" VALUE="" NAME = "registrationIDs"></br></br>
+
+</br>
+
+Password_CK : <INPUT size=40% TYPE = "Text" VALUE="" NAME = "password_ck"></br></br>
+
+
+</br>
+
+Push Message : <TEXTAREA NAME="message" COLS=100 ROWS=5></TEXTAREA>
+    
+    </br>
+    
+    </br>
+    
+    </br>
+    
+    Type  : <INPUT size=70% TYPE = "Text" VALUE="" NAME = "ctype"></br></br>
+        
+        </br>
+        
+        ID  : <INPUT size=70% TYPE = "Text" VALUE="" NAME = "cid"></br></br>
+    
+<input type="submit" value="Send Notification"/>
+
+</form>
+
+</center>
+
+</body>
+
+</html>
