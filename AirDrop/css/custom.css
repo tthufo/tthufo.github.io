@@ -1,0 +1,11 @@
+/* your styles go here */
+
+a:link, a:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color: #FFFFFF;
+}
